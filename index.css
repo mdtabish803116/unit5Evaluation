@@ -1,0 +1,60 @@
+#container1 {
+     display : flex;
+      justify-content: center;
+}
+
+#container1 table{
+    font-size : 20px;
+    border-collapse : collapse;
+}
+
+#container1 thead th {
+    padding : 20px;
+}
+
+
+#container1 table  td{
+    border : 2px solid teal;
+    text-align : center;
+    padding : 10px;
+}
+
+#container2 #searchContainer{
+    display : flex;
+    width : 30%;
+    margin : 50px auto;
+    border : 2px solid teal;
+    justify-content : space-between;
+    align-items: center;
+    height : 30px;
+    border-radius : 10px;
+    padding-left : 8px;
+    
+}
+
+#container2 #searchBox{  
+    width : 90%;
+     font-size : 20px;
+     border : none;
+     outline : none; 
+}
+
+#pokeContainer { 
+    width : 40%;
+      display : flex;
+      justify-content : center;
+       
+      margin : 50px auto;
+    font-size : 20px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    padding : 50px
+}
+
+#pokeContainer > div{
+    text-align : center;
+    width : 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#pokeContainer > div > div{
+    padding : 20px;
+}
