@@ -21,7 +21,7 @@
 
 #container2 #searchContainer{
     display : flex;
-    width : 30%;
+    width : 50%;
     margin : 50px auto;
     border : 2px solid teal;
     justify-content : space-between;
@@ -40,7 +40,7 @@
 }
 
 #pokeContainer { 
-    width : 40%;
+    width : 60%;
       display : flex;
       justify-content : center;
        
@@ -57,4 +57,32 @@
 }
 #pokeContainer > div > div{
     padding : 20px;
+}
+
+#pokeContainer #abilitiesDiv{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+    align-items : center;
+}
+
+#pokeContainer #abilitiesDiv > div:last-child{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+
+}
+
+#pokeContainer #movesDiv{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+    align-items : center;
+}
+
+#pokeContainer #movesDiv > div:last-child{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+
 }
